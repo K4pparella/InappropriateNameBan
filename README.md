@@ -3,7 +3,7 @@ A plugin that helps server admin to censor / change inappropriate player nicknam
 
 
 # Installation
-You wil (Obviusly) need Exiled 4.2.2 (download found [**here**](https://github.com/Exiled-Team/EXILED/releases))(installation guide found [**here**](https://github.com/Exiled-Team/EXILED#installation)
+You will (obviusly) need Exiled 4.2.2 (download found [**here**](https://github.com/Exiled-Team/EXILED/releases))(installation guide found [**here**](https://github.com/Exiled-Team/EXILED#installation)
 Then if you have windows move InappropriateNameBan.dll into C:\Users\(Your_User)\AppData\Roaming\EXILED\Plugins
 
 If you have linux move InappropriateNameBan.dll into ~/.config/EXILED/Plugins
