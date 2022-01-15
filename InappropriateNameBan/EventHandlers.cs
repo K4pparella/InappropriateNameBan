@@ -1,8 +1,8 @@
-﻿using System;
+using System;
 using Exiled.API.Features;
 using Exiled.Events.EventArgs;
 
-namespace Testasdadas
+namespace InappropriateNameBan
 {
     public class EventHandlers
     {
@@ -19,7 +19,10 @@ namespace Testasdadas
                 contained = ev.Player.Nickname.Contains(Plugin.Singleton.Config.BannedNames[i]);
                 if(contained == true)
                 {
-                    Log.Debug("Attention, a player with a inappropriate name has been found, replacing name...");
+                    if(Plugin.Singleton.Config.Debug == true)
+                    {
+                        Log.Debug("Attention, a player with a inappropriate name has been found, replacing name...");
+                    }
                     string[] newnames = Plugin.Singleton.Config.ChangeNames.ToArray();
                     int rn = random.Next(0, newnames.Length);
                     ev.Player.DisplayNickname = Plugin.Singleton.Config.ChangeNames[rn];
