@@ -1,3 +1,4 @@
+![Github All Releases](https://img.shields.io/github/downloads/quazEx/InappropriateNameBan/total.svg)
 # InappropriateNameBan
 A plugin that helps server admin to censor / change inappropriate player nicknames
 
